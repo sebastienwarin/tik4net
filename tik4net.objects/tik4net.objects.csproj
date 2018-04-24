@@ -64,6 +64,10 @@
     <Compile Include="Interface\Wireless\WirelessAccessList.cs" />
     <Compile Include="Interface\Wireless\WirelessRegistrationTable.cs" />
     <Compile Include="Interface\Wireless\WirelessSecurityProfile.cs" />
+    <Compile Include="Ipv6\Ipv6Neighbor.cs" />
+    <Compile Include="Ipv6\Ipv6Pool.cs" />
+    <Compile Include="Ipv6\Ipv6DhcpClient.cs" />
+    <Compile Include="Ipv6\Ipv6Address.cs" />
     <Compile Include="Ip\DhcpServer\DhcpServerAlert.cs" />
     <Compile Include="Ip\DhcpServer\DhcpServerLease.cs" />
     <Compile Include="Ip\DhcpServer\DhcpServerNetwork.cs" />

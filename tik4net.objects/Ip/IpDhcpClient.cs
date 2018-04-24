@@ -117,7 +117,7 @@ namespace tik4net.Objects.Ip
         /// expires-after: Time when the lease expires (specified by the DHCP server).
         /// </summary>
         [TikProperty("expires-after", IsReadOnly = true)]
-        public string ExpiresAfter { get; private set; }
+        public TimeSpan ExpiresAfter { get; private set; }
 
         /// <summary>
         /// gateway: IP address of the gateway which is assigned by DHCP server
