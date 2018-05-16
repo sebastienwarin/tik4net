@@ -9,7 +9,7 @@ namespace tik4net.Objects.Ip
     /// ipv6/dhcp client
     /// DHCP-client in RouterOS is capable of being a DHCPv6-client and DHCP-PD client. So it is able to get a prefix from DHCP-PD server as well as DHCPv6 stateful address from DHCPv6 server.
     /// </summary>
-    [TikEntity("ipv6/dhcp-client", IncludeDetails = true)]
+    [TikEntity("/ipv6/dhcp-client", IncludeDetails = true)]
     public class Ipv6DhcpClient
     {
         /// <summary>
@@ -65,7 +65,6 @@ namespace tik4net.Objects.Ip
         /// </summary>
         [TikProperty("pool-prefix-length")]
         public string PoolPrefixLength { get; set; }
-
 
         /// <summary>
         /// Auto generated DUID that is sent to the server. DUID is generated using one of the MAC addresses available on the router.
